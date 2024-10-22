@@ -1,0 +1,574 @@
+html {
+    font-family: "arial";
+    color: white; 
+}
+
+body {
+    background-color: #414143;
+    margin: 0%;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    font-family: "arial";
+}
+
+.principal {
+    background-image: url(imagenes/fondo.jpg);
+}
+
+/*|||||||| Clases sección superior ||||||||||||||*/
+
+.bannerContainer {
+    background-color: #d7d7d7;
+    background-image: linear-gradient(180deg, #d7d7d7 0%, #353535 74%);
+    
+}
+.banner{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+.seccionSuperior {
+    height: 400px;
+    margin-left: 3%;
+}
+
+
+.imagenPerfil, .seccionTituloBarra {
+    height: inherit;
+    float: left;
+}
+
+.seccionTituloBarra {
+    margin-left: 10%;
+}
+
+.imagenPerfil {
+    padding: 0% 2%;
+}
+
+.imagenPerfil img {
+    height: 75%;
+    display: block;
+    margin: 10% auto;
+    border: 3px solid #FAFAFA;
+    border-radius: 50%;
+}
+
+
+.tituloPrincipal {
+    height: 200px;
+    padding: 5% 150px 0%;
+}
+
+.tituloPrincipal h2 {
+    text-align: center;
+    font-family: "arial";
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.barraNavegacion {
+    height: 150px;
+    width: inherit;
+    margin-left: 25%;
+}
+
+.barraNavegacion nav {
+    position: relative;
+    top: 20%;
+    font-family: "arial";
+}
+
+.barraNavegacion nav a {
+    background-color: #404040;
+    border: 1px solid white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
+    font-family: "arial";
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.barraNavegacion nav a:hover:not(.activa) {
+    background-color: #333333;
+}
+
+nav a.activa {
+    background-color: black;
+}
+
+/*############# INDEX.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+
+
+.seccionCentral {
+    margin-top: 3%;
+    max-width: 100%;
+    margin-left: 3%;
+    clear: left;
+}
+
+
+
+.barraIzquierda {
+    height: auto;
+    width: 25%;
+    border-radius: 30px;
+    border: 1px solid #BDBDBD;
+    float: left;
+}
+
+.barraIzquierda h2 {
+    text-align: center;
+    border-top: 1px solid #FAFAFA;
+    border-bottom: 1px solid #FAFAFA;
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#personal h2 {
+    margin-top: 0;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.barraIzquierda li {
+    margin-bottom: 30px;
+}
+
+.barraIzquierda span {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+.contenidoDerecha {
+    margin-left: 13px;
+    height: inherit;
+    width: 72%;
+    float: left
+}
+
+.itemContenido {
+    margin: 0 0 10px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;    
+    font-family: "arial";
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding-bottom: 0;
+    border: 1px solid #BDBDBD;
+}
+
+.itemContenido h2 {
+    background-color: black;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: solid #808080 1px;
+    font-family: "arial";
+    margin-top: 0;
+}
+
+.itemContenido p,
+.itemContenido ul {
+    padding-bottom: 10px
+}
+
+.itemContenido span {
+    font-weight: bold;
+}
+
+.itemContenido#perfil p{
+    padding: 0 20px;
+}
+
+.extras{
+    clear: left;
+    
+}
+
+.extras div{
+    width: 50%;
+    float: left;
+    
+}
+
+.extras h1{
+    text-align: center;
+}
+
+.extras ul{
+    margin-top: 0;
+}
+.extras li{
+    font-size: 1.1em;
+}
+
+.extras h2{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/*############# PROYECTOS.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+
+#proyectos h2, #proyectos h1, .seccionFormularios {
+    text-align: center;
+}
+
+#proyectos ul li{
+    margin-top: 2%;
+}
+#proyectos ul li span {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block
+}
+
+.seccionFormularios input[type= "button"]{
+    font-size: 35px;
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: white;
+    border: solid #333333;
+}
+
+.seccionFormularios input[type= "submit"]{
+    font-size: 20px;
+    background-color: #4d4d4d;
+    color: white;
+    border: solid #333333;
+}
+
+
+#formulario{
+    margin-top: 10px;
+    display: none
+}
+#formulario textarea#message{
+    height: 200px;
+    width: 300px;
+}
+
+#formulario input#fname, #formulario input#lname, #formulario textarea#message {
+    padding: 7px;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+/*############# GALERIA.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+
+.galeria{
+    clear:left;
+}
+
+.galeria h1 {
+    text-align: center;
+}
+
+.imagenes {
+    margin-left: 3%;    
+    width: 30%;
+    float: left
+}
+
+.elementoImagen {
+    padding: 5px;
+    float: left;
+    width: 35%;
+}
+
+.imagenes img{
+    width: 141px;
+    height: 94px;
+    display: block;
+    margin: auto
+}
+
+.imagenes img.vertical{
+    width: 126px;
+    height: 147px;
+    display: block;
+    margin: auto;
+}
+
+.imagenActiva{
+    background-color: #32a875;
+}
+
+.imagenGrande{
+    width: 67%;
+    float: left;
+    height: 450px;
+    text-align: center;
+}
+
+
+
+.seccionVideos {
+    clear: left;
+}
+
+.seccionVideos iframe {
+    margin: auto;
+    display: block;
+    border: 0px
+}
+
+
+
+
+/*############# CONTACTO.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+.redes{
+    clear: left;
+}
+.redes h1 {
+    text-align: center;
+    font-family: "arial";
+}
+
+.seccionCorreo h1{
+    margin-bottom: 0px;
+}
+
+.seccionCorreo{
+    width: 50%;
+    margin: auto;
+}
+.correo {
+    text-align: center;
+    margin: 40px 0;
+} 
+.correo img{
+    height: 70px;
+}
+.correo img, .correo h1{
+    display: inline-block;  
+}
+
+.correo h1{
+    margin: 0px 0px 0px 25px;
+    position: relative;
+    bottom: 30px
+}
+
+
+.barraRedes nav{
+    text-align: center;
+}
+
+.barraRedes nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px 10px;
+    font-size: 1.5em
+}
+
+.barraRedes nav a h2{
+    margin-top: 10px;
+    margin-bottom: 0px
+}
+
+.mapa{
+    clear: left;
+    text-align: center;
+}
+
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3{
+    margin:auto;
+}
+
+
+/* Footer */
+.footerPagina {
+    clear: left;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    height: 80px;
+    text-align: right;
+    font-family: arial
+}
+
+
+/*######## RESPONSIVE ######## */
+/*#### Celular 500px width###### */
+/*|||||||| Sección superior |||||||| */
+@media screen and (max-width: 500px) {
+    .principal {
+        background-size: 100% auto;
+    }
+    .seccionSuperior {
+        margin-left: 0;
+    }
+    .imagenPerfil{
+        width: 100%;
+        padding: 0;
+        height:90%;
+    } 
+    .imagenPerfil img{
+        height: 90%;
+    }
+
+    .tituloPrincipal {
+        padding: 0%;
+        height: auto;
+    }
+
+    .barraNavegacion {
+        width: 100%;
+    }
+    
+    .barraNavegacion nav {
+        font-family: "arial"; 
+  
+    }
+    
+    .barraNavegacion nav a {
+        background-color: #404040;
+        border: 1px solid white;
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 0;
+        width: 195px;
+        text-decoration: none;
+        font-family: "arial";
+        color: white;
+        font-size: 1.2em;
+        margin: 20px;
+        
+    }
+    nav a.activa {
+        background-color: black;
+    }
+    
+/*############# INDEX.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+    .seccionCentral {
+        margin-left: 0%;
+    }
+
+    .barraIzquierda {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contenidoDerecha {
+        margin-top: 10%;
+        margin-left: 5%;
+        height: inherit;
+        width: 90%;
+        float: left
+    }
+/*############# PROYECTOS.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+    #proyectos ul li{
+        padding: 0 3%;
+        margin-top: 5%;
+    }
+
+/*############# GALERIA.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+    .imagenes {
+        margin-left: 0;   
+        width: 100%;
+    }
+
+    .elementoImagen {
+        padding: 5px;
+        width: auto;
+        margin-left: 7px;
+    }
+
+    .imagenes img{
+        width: 100px;
+        height: 89px;
+        display: block;
+        margin: auto
+    }
+
+    .imagenes img.vertical{
+        width: 100px;
+        height: 89px;
+        display: block;
+        margin: auto;
+    }
+
+
+    .imagenGrande{
+        width: 100%;
+        float: left;
+        height: 450px;
+        text-align: center;
+    }
+
+    .imagenGrande img{
+        margin: 10% 0 0;
+    }
+
+    .seccionVideos iframe {
+        width: 450px;
+        height: 263px;
+    }
+
+
+/*############# CONTACTO.HTML   #############  */
+/*|||||||| Clases sección central ||||||||||| */
+    
+
+    .seccionCorreo{
+        width: 100%;
+    }
+
+    .correo h1{
+        right: 10px;
+    }
+
+
+    .barraRedes nav{
+        text-align: center;
+    }
+    
+    .barraRedes nav a{
+        padding: 10px 20px 10px;
+        font-size: 1em
+    }
+    
+    .barraRedes nav a img{
+        width: 110px;
+        height: 110px;
+    }
+    
+
+
+    #map-9cd199b9cc5410cd3b1ad21cab2e54d3{
+        width: 450px;
+        margin: auto;
+    }
+}
